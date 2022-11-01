@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 ul, ol {
@@ -24,4 +25,44 @@ body {
 .container {
     width: 1140px;
     margin: 0 auto;
+}
+
+.navbar .container  {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav_photo {
+    width: 150px;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+
+.nav_link {
+    margin: 0 15px;
+    color: #111;
+    text-transform: uppercase;
+    transition: .6s;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav_link:hover {
+    color: blue;
+}
+
+.navbar span i {
+    font-size: 20px;
+    margin: 0 15px;
+    transition: .6s;
+}
+
+.navbar  span i:hover {
+    color: green;
+    cursor: pointer;
 }
