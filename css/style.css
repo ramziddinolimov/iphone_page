@@ -66,3 +66,53 @@ body {
     color: green;
     cursor: pointer;
 }
+
+.main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DCE5E2;
+    border-radius: 30px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 70px;
+}
+
+.main_text, .main_photo {
+    width: 45%;
+}
+
+.main_text .main_title {
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main_text .main_subtext {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.main_text .main_link {
+    border: 2px solid black;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: .6s;
+}
+
+.main_link:hover {
+    background-color: black;
+    color: #fff;
+    
+}
+
+.main_icon_back, .main_icon_right {
+    transition: .7s;
+}
+
+.main_icon_back:hover, .main_icon_right:hover {
+    color: blue;
+    transform: scale(2);
+    cursor: pointer;
+}
