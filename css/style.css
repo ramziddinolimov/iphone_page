@@ -235,3 +235,53 @@ body {
     width: 250px;
     margin-top: 50px;
 }
+
+.best_title {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 100px;
+}
+
+.best_subtext {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.best_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.best_item {
+    width: 20%;
+}
+
+.best_item h4 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.best_item p{
+    color: #4B4B4B;
+    font-size: 14px;
+}
+
+.best_item h5 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.best_item img {
+    width: 200px;
+    transition: .7s;
+    
+}
+
+.best_item:hover img {
+    transform: scale(1.2);
+}
